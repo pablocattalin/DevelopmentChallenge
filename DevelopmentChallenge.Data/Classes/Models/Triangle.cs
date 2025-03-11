@@ -10,7 +10,11 @@ namespace DevelopmentChallenge.Data.Classes
     {
         protected Triangle(decimal lado) : base(lado)
         {
-        }        
+        }
+        public override decimal CalcularPerimetro()
+        {
+            return Lado * 3;
+        }
 
         public override string EnglishLabelName(bool pluralize)
         {

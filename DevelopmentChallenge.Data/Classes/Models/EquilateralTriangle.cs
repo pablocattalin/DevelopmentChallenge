@@ -12,10 +12,6 @@ namespace DevelopmentChallenge.Data.Classes.Models
         {
             return ((decimal)Math.Sqrt(3) / 4) * Lado * Lado;
         }
-
-        public override decimal CalcularPerimetro()
-        {
-            return Lado * 3;
-        }
+        
     }
 }
